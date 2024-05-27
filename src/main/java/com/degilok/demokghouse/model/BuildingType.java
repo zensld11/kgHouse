@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "building_type")//тип строения
+@Table(name = "building_type")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class BuildingType {
     @Id
@@ -17,5 +17,5 @@ public class BuildingType {
     Long id;
     String breek;
     String monolit;
-    String panelka;//ужас
+    String socket;//панельный
 }

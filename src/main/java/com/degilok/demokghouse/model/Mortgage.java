@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "mortgage")//ипотека
+@Table(name = "mortgage")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Mortgage {
     @Id

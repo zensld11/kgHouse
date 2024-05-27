@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "complex")//жилой комплекс
+@Table(name = "complex")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Complex {
     @Id

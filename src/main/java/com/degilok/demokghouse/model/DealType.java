@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "deal_type")//тип сделки
+@Table(name = "deal_type")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class DealType {
     @Id

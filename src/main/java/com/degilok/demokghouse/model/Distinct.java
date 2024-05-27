@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "distinct")//район
+@Table(name = "distinct")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Distinct {
     @Id

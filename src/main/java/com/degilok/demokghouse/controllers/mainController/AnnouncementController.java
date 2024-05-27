@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/real/estate")
-public class AnnouncementController { // отвечает за два главные метода(create and listings) announcement - объявление
+public class AnnouncementController { // отвечает за два главные метода(create and listings) хмм
 
 //    @PostMapping("/create")
 //    public

@@ -18,5 +18,6 @@ public class Region {
     String name;
 
     //region_id
-    //city_id selfJoin
+    //city_id
+    // selfJoin
 }

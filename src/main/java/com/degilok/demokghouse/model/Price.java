@@ -16,7 +16,7 @@ public class Price {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    //currency
-    //price_type
+    String currency;
+    String price_type;
 
 }

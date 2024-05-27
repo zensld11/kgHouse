@@ -9,7 +9,7 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "locality")//местонахождение
+@Table(name = "locality")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Locality {
     @Id
